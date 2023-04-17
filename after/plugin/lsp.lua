@@ -6,7 +6,7 @@ lsp.ensure_installed({
 	'rust_analyzer',
 	'arduino_language_server',
 	'clangd',
-	'ocamllsp',
+    'ocamllsp',
 	'tailwindcss',
 	'taplo'
 })
