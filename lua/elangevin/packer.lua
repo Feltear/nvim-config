@@ -53,6 +53,14 @@ return require('packer').startup(function(use)
         {'L3MON4D3/LuaSnip'},     -- Required
     }
 }
+-- Debugger
+use 'mfussenegger/nvim-dap'
 
+-- Bracket and parenthesis auto closing
 use 'm4xshen/autoclose.nvim'
+
+-- Inlay Hints
+use('simrat39/inlay-hints.nvim')
+
+use('simrat39/rust-tools.nvim')
 end)
